@@ -1,0 +1,102 @@
+.home-container {
+    display: flex;
+    
+    .all-movies {
+      width: 100%;
+      min-height: calc(100vh - 80px);
+      border-right: 1px solid #fdc827;
+      padding: 20px 40px;
+      font-family: "Roboto", sans-serif;
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        h4 {
+          text-transform: uppercase;
+          font-weight: bold;
+          border-left: 5px solid #ff9900;
+          padding-left: 10px;
+        }
+        .view-all {
+          color: #ff9900;
+          cursor: pointer;
+        }
+      }
+      .movies-thumbnail {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        .movie {
+          .cover {
+            margin-right: 15px;
+            cursor: pointer;
+            img {
+              border-radius: 5px;
+            }}
+          }
+          .detail {
+            width: 100px;
+            .name {
+              font-weight: bold;
+              height: 50px;
+              margin-top: 5px;
+              cursor: pointer;
+            }
+          }
+        }
+        .rating {
+          margin-top: 30px;
+          font-size: 25px;
+          color: gold; }
+          
+          .rating-value{
+            font-size: 15px;
+          color: black;
+          }
+        
+        
+    }
+
+    .popular-movies {
+     display: flex;
+      width: 25%;
+      min-height: calc(100vh - 80px);
+      padding: 20px 40px;
+      font-family: "Roboto", sans-serif;
+      h4 {
+        text-transform: uppercase;
+        font-weight: bold;
+        border-left: 5px solid #ff9900;
+        padding-left: 10px;
+      }
+      .movies {
+        .movie {
+          margin-bottom: 20px;
+          margin-top: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .name {
+            font-weight: bold;
+            cursor: pointer;
+          }
+        }
+        .view-all {
+          color: #ff9900;
+          text-align: right;
+          margin-top: 30px;
+          cursor: pointer;
+        }
+      }
+    }
+   
+  }
+  
+ 
+
+  
+ 
+
+ 

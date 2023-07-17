@@ -1,0 +1,9 @@
+<ng-template #t let-fill="fill">
+    <i class="bi-heart-fill">
+      <i *ngIf="fill > 0" class="bi-heart-fill filled" [style.width.%]="fill"></i>
+    </i>
+  </ng-template>
+
+<ngb-rating
+  [(rate)]="rating"
+  [max]="5"></ngb-rating>
